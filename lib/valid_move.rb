@@ -1,5 +1,5 @@
 def valid_move?(array, index)
-  if position_taken? == false && index.between(0, 8) == true
+  if position_taken? == false && array[index].between(0, 8) == true
     true
   end
 end
